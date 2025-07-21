@@ -3,8 +3,7 @@
 <img width="567" height="181" alt="{0F8B1E67-E09B-4960-A646-048BA12997FF}" src="https://github.com/user-attachments/assets/24d3dc76-862d-4389-968e-ddd8fa54b257" />
 
 
-[
-[](https://opensource.org/hields.io/img.shields.ioalizador de estadísticas profundas para Paladins Champions of the Realm**  
+**Localizador de estadísticas profundas para Paladins Champions of the Realm**  
 > Extrae y analiza datos de partidas desde PaladinsGuru, identifica compañeros problemáticos/exitosos, genera reportes detallados por campeón y mapa con exportación CSV y base SQLite.
 
 ## ⚠️ Proyecto en Fase Beta
