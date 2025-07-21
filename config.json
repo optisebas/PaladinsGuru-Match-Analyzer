@@ -1,0 +1,39 @@
+{
+    "configuracion_general": {
+        "retraso_entre_peticiones_seg": 0.3,
+        "max_paginas_historial_a_escanear": 500,
+        "top_n_relaciones_a_mostrar": 20,
+        "analizar_estadisticas_por_campeon": true,
+        "analizar_estadisticas_por_mapa": true,
+        "extraer_fecha_partida": true,
+        "extraer_mapa_partida": true
+    },
+    "configuracion_cache": {
+        "habilitar_cache_partidas": false,
+        "directorio_cache": "cache_partidas",
+        "forzar_reanalisis_partidas_cacheadas": false
+    },
+    "opciones_de_salida": {
+        "generar_csv_estadisticas_detalladas": false,
+        "generar_csv_relaciones": false,
+        "generar_csv_estadisticas_campeon": false,
+        "generar_csv_estadisticas_mapa": false,
+        "mostrar_resumen_consola_relaciones": true,
+        "mostrar_resumen_consola_stats_campeon": true,
+        "mostrar_resumen_consola_stats_mapa": true,
+        "mostrar_resumen_consola_stats_globales": true
+    },
+    "base_de_datos_sqlite": {
+        "habilitar_sqlite": true,
+        "nombre_archivo_db": "paladins_analisis.sqlite"
+    },
+    "depuracion_y_logging": {
+        "nivel_de_log": "INFO",
+        "mostrar_prints_depuracion_curacion": false
+    },
+    "_configuracion_info": {
+        "_uso": "Este archivo contiene solo configuraciones técnicas del script",
+        "_entrada_usuarios": "Usa --url para analizar cualquier perfil de PaladinsGuru",
+        "_ejemplo": "python paladins_analyzer_standalone.py --url 'https://paladins.guru/profile/ID-NOMBRE'"
+    }
+}
