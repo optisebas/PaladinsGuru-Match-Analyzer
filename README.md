@@ -1,4 +1,7 @@
 # 🛡️ PaladinsGuru Match Analyzer
+<img width="909" height="995" alt="{FDA04353-81BD-4985-BC71-82C89006B66E}" src="https://github.com/user-attachments/assets/a235083b-ade7-48bc-89c3-f6b0c8469166" />
+<img width="567" height="181" alt="{0F8B1E67-E09B-4960-A646-048BA12997FF}" src="https://github.com/user-attachments/assets/24d3dc76-862d-4389-968e-ddd8fa54b257" />
+
 
 [
 [](https://opensource.org/hields.io/img.shields.ioalizador de estadísticas profundas para Paladins Champions of the Realm**  
