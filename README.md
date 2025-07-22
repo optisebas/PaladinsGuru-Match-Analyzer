@@ -2,6 +2,9 @@
 <img width="909" height="995" alt="{FDA04353-81BD-4985-BC71-82C89006B66E}" src="https://github.com/user-attachments/assets/a235083b-ade7-48bc-89c3-f6b0c8469166" />
 <img width="567" height="181" alt="{0F8B1E67-E09B-4960-A646-048BA12997FF}" src="https://github.com/user-attachments/assets/24d3dc76-862d-4389-968e-ddd8fa54b257" />
 
+ ![Python](https://img.shields.io/badge/Python-3.7+-blue?style=flat-square&logo=python)
+  ![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
+  ![Status](https://img.shields.io/badge/Status-Active-success?style=flat-square)
 
 **Localizador de estadísticas profundas para Paladins Champions of the Realm**  
 > Extrae y analiza datos de partidas desde PaladinsGuru, identifica compañeros problemáticos/exitosos, genera reportes detallados por campeón y mapa con exportación CSV y base SQLite.
