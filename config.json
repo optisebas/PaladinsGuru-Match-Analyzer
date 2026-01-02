@@ -1,39 +1,48 @@
 {
-    "configuracion_general": {
-        "retraso_entre_peticiones_seg": 0.3,
-        "max_paginas_historial_a_escanear": 500,
-        "top_n_relaciones_a_mostrar": 20,
-        "analizar_estadisticas_por_campeon": true,
-        "analizar_estadisticas_por_mapa": true,
-        "extraer_fecha_partida": true,
-        "extraer_mapa_partida": true
+    "perfil_vip_por_defecto": {
+        "_nota": "¡Aquí pones a tu favorita (Makoichi) para no escribir el link siempre! 😉",
+        "usar_automaticamente": true,
+        "url_o_id": "https://paladins.guru/profile/9256237-Makoichi"
     },
-    "configuracion_cache": {
-        "habilitar_cache_partidas": false,
-        "directorio_cache": "cache_partidas",
-        "forzar_reanalisis_partidas_cacheadas": false
+    "configuracion_anti_bloqueo": {
+        "_nota": "Ajustes finos para que el servidor no se enoje con nosotros 🕵️‍♂️",
+        "retraso_entre_peticiones_seg": 2.0,
+        "maximos_reintentos": 5,
+        "tiempo_espera_extra_si_falla": 10
     },
-    "opciones_de_salida": {
-        "generar_csv_estadisticas_detalladas": false,
-        "generar_csv_relaciones": false,
-        "generar_csv_estadisticas_campeon": false,
-        "generar_csv_estadisticas_mapa": false,
-        "mostrar_resumen_consola_relaciones": true,
-        "mostrar_resumen_consola_stats_campeon": true,
-        "mostrar_resumen_consola_stats_mapa": true,
-        "mostrar_resumen_consola_stats_globales": true
+    "limites_de_analisis": {
+        "_nota": "Controla qué tanto viajas al pasado en el historial ⏳",
+        "max_paginas_historial": 500,
+        "detenerse_si_no_hay_nuevas_partidas": true
     },
-    "base_de_datos_sqlite": {
-        "habilitar_sqlite": true,
-        "nombre_archivo_db": "paladins_analisis.sqlite"
+    "que_quieres_analizar": {
+        "_nota": "Activa o desactiva lo que te interese ver 📊",
+        "analizar_por_campeon": true,
+        "analizar_por_mapa": true,
+        "extraer_fecha": true,
+        "extraer_mapa": true
     },
-    "depuracion_y_logging": {
-        "nivel_de_log": "INFO",
-        "mostrar_prints_depuracion_curacion": false
+    "base_de_datos": {
+        "_nota": "Aquí guardamos todo para no descargarlo dos veces 💾",
+        "usar_sqlite": true,
+        "nombre_archivo": "paladins_analisis.sqlite"
     },
-    "_configuracion_info": {
-        "_uso": "Este archivo contiene solo configuraciones técnicas del script",
-        "_entrada_usuarios": "Usa --url para analizar cualquier perfil de PaladinsGuru",
-        "_ejemplo": "python paladins_analyzer_standalone.py --url 'https://paladins.guru/profile/ID-NOMBRE'"
+    "cache_y_archivos": {
+        "guardar_html_local": true,
+        "carpeta_cache": "cache_partidas",
+        "reanalizar_todo_forzado": false
+    },
+    "reportes_y_salida": {
+        "_nota": "¿Qué quieres que te muestre al terminar? 📈",
+        "crear_csv_detallado": true,
+        "crear_csv_relaciones": true,
+        "crear_csv_campeones": true,
+        "mostrar_resumen_en_consola": true,
+        "top_compañeros_a_mostrar": 20
+    },
+    "_info_sistema": {
+        "autor": "OptiSebas",
+        "version": "2.0 Pro Edition",
+        "mensaje": "Hecho con amor para analizar partidas como un pro <3"
     }
 }
