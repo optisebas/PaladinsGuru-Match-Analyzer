@@ -1,11 +1,6 @@
-# === DEPENDENCIAS PRINCIPALES ===
-requests>=2.31.0
-beautifulsoup4>=4.11.2
-pandas>=2.0.3
-colorama>=0.4.6
-
-# === DEPENDENCIAS OPCIONALES PARA DESARROLLO ===
-# Descomenta si planeas añadir tests o análisis avanzados:
-# pytest>=7.4.0
-# matplotlib>=3.7.0
-# seaborn>=0.12.0
+curl-cffi>=0.5.10
+pandas
+beautifulsoup4
+colorama
+lxml
+openpyxl
